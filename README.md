@@ -1,8 +1,43 @@
-# React + Vite
+# 🎬 Movie Info Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React.js** application that fetches movie data using the **TMDB API**. Users can search for movies, mark favorites, and view them separately.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📌 **Fetch Movies** – Displays movies with their posters and details using the TMDB API.
+- 🔍 **Search Functionality** – Allows users to search for any movie.
+- ❤️ **Favorite Page** – Users can mark movies as favorites and view them separately.
+- 🎨 **Responsive UI** – Styled using **Tailwind CSS**.
+- 🌍 **Global State Management** – Utilized **Context API** to manage favorite movies across components.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API, useState, useEffect
+- **API**: TMDB API
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/Tushpatil18/Movie-Info-Application.git
+   cd Movie-Info-Application
+   ```
+   
+2.**Install dependencies**
+```sh
+  npm install
+```
+
+3.**Get TMDB API Key**
+
+- Sign up on TMDB
+- Go to Settings > API and generate an API key.
+
+4.**Run the project**
+```sh
+  npm start
+```
+
+## 🔗 Live Demo : https://tushar-movies-info-app.netlify.app/

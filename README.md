@@ -41,3 +41,5 @@ A **React.js** application that fetches movie data using the **TMDB API**. Users
 ```
 
 ## 🔗 Live Demo : https://tushar-movies-info-app.netlify.app/
+## ⚠️ Note
+**🛑 Some ISPs in India, such as Jio, have blocked access to TMDB. This can create issues for users on those networks, as they may not be able to retrieve movie data or posters from TMDB. If you face such issues, try using a VPN or a different network to access the application properly.**
